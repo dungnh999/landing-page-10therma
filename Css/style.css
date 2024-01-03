@@ -1,0 +1,370 @@
+body{
+    margin: 0 auto;
+}
+
+.header {
+    padding: 10px;
+}
+
+.header img{
+    width: 100%;
+    height: auto;
+}
+
+img{
+    height: auto;
+}
+
+input{
+    outline: none;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: none !important;
+}
+
+.heading-title{
+    color: #452D8C;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.animation-shrink{
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+/* DETAIL */
+
+.detail-therma{
+    background-color: transparent;
+    background-image: linear-gradient(160deg, #7E47CE 2%, #E4D2FF 100%);
+}
+
+.detail-therma .image-logo{
+    margin: 51px 0 0 0;
+    text-align: center;
+}
+
+.detail-therma .image-logo > img{
+    height: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.detail-therma .preview-video{
+    margin: 28px 0 0 0;
+}
+
+.detail-therma .preview-video iframe{
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    line-height: 1;
+    border: none;
+}
+
+.detail-therma .content-therma{
+    margin: 12px 20px 0px 20px;
+    color: #2A2A2A;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+
+.detail-therma .list-detail{
+    margin: 54px 20px 20px 20px;
+}
+
+.detail-therma .list-detail ul li{
+    color: #3C3C3C;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.detail-therma .icon-image{
+    margin: -54px 0px 20px 33px;
+    display: inline-block;
+    opacity: 0.27;
+}
+
+.detail-therma .content-right{
+    margin: -52px 20px 0px 46px;
+}
+
+.detail-therma .content-right p{
+    margin-bottom: 1.5em;
+}
+
+.dieu-tri{
+    padding: 10px;
+}
+.dieu-tri .title-dieu-tri{
+    margin: 20px 0px 20px 0px;
+}
+
+.dieu-tri h2{
+    color: #452D8C;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dieu-tri .group-card{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.dieu-tri .group-card img{
+    width: 100%;
+    height: auto;
+}
+
+.dieu-tri .button-card{
+    margin-bottom: 20px;
+}
+
+.dieu-tri .image-card{
+    margin-bottom: 20px;
+}
+
+.dieu-tri img:hover{
+    transform: scale(0.9);
+}
+
+.dieu-tri .title-button-card h2{
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dieu-tri .box-title{
+    margin-bottom: 20px;
+}
+
+.dieu-tri .title-button-card{
+    margin: -60px 0px 20px 0px;
+}
+
+.dieu-tri .content-card{
+    margin: -23px 0px 0px 0px;
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+}
+
+.dieu-tri .content-card p{
+    text-align: center;
+    color: #454545;
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.uu-diem .title-uu-diem{
+    margin-bottom: 20px;
+}
+
+.tinh-nang{
+    background-image: url(http://10therma.vn/wp-content/uploads/2023/12/background-layout-4.png);
+    background-size: cover;
+    /* margin-bottom: 20px; */
+}
+
+.tinh-nang .title-image-tinh-nang{
+    margin: 70px 20px 30px 20px;
+}
+
+.tinh-nang .title-image-tinh-nang img{
+   width: 100%;
+   height: auto;
+}
+
+.tinh-nang .video-tinh-nang{
+    margin-bottom: 40px;
+}
+
+.tinh-nang .list-tinh-nang{
+    margin: 60px 20px 40px 20px;
+    padding: 0px 0px 0px 0px;
+}
+
+.tinh-nang .video-tinh-nang iframe{
+    width: 100%;
+}
+
+.title-lua-chon{
+    margin-bottom: 20px;
+}
+.lua-chon {
+    margin-bottom: 20px;
+}
+
+.truoc-sau{
+    margin-bottom: 20px;
+}
+
+/* BEFORE AFTER */
+/* Our wrapper */
+
+.container .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 900px 100%;
+  }
+  .container .background-img {
+    background-image: url("https://i.imgur.com/s08MkXC.jpg");
+  }
+  .container .foreground-img {
+    background-image: url("https://i.imgur.com/PfIWek4.jpg");
+    width: 50%;
+  }
+  .container .slider {
+    position: absolute;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 242, 242, 0.3);
+    outline: none;
+    margin: 0;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .slider:hover {
+    background: rgba(242, 242, 242, 0.1);
+  }
+  .container .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 6px;
+    height: 600px;
+    background: white;
+    cursor: pointer;
+  }
+  .container .slider::-moz-range-thumb {
+    width: 6px;
+    height: 600px;
+    background: white;
+    cursor: pointer;
+  }
+  .container .slider-button {
+    pointer-events: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    left: calc(50% - 18px);
+    top: calc(50% - 18px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .slider-button:after {
+    content: "";
+    padding: 3px;
+    display: inline-block;
+    border: solid #5D5D5D;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg);
+  }
+  .container .slider-button:before {
+    content: "";
+    padding: 3px;
+    display: inline-block;
+    border: solid #5D5D5D;
+    border-width: 0 2px 2px 0;
+    transform: rotate(135deg);
+  }
+
+.chung-chi{
+    margin-bottom: 20px;
+}
+
+.chung-chi .item-image{
+    padding: 0 50px 20px 50px;
+}
+
+
+.form-customer{
+    background-color: #FFFFFF;
+    background-image: url(http://10therma.vn/wp-content/uploads/2023/12/form-dang-ky.jpg);
+    background-position: top left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-customer .form-item{
+    margin: 65px 20px 60px 20px;
+    --e-column-margin-right: 20px;
+    --e-column-margin-left: 20px;
+}
+
+
+.form-customer .sub-text-title{
+    color: #9F9F9F;
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+}
+
+.form-customer .form-submit .form-group label:after{
+    content: "*";
+    color: red;
+    padding-left: 0.2em;
+}
+
+.form-customer .form-submit .form-group label{
+    color: #7A7A7A;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0;
+}
+
+
+.form-customer .form-submit .form-group input{
+    background-color: #D5D5D5;
+    border-color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 15px;
+    border: 0;
+}
+
+.form-customer .form-submit .input-group input{
+    border-radius: 5px 0px 0px 5px;
+}
+
+.form-customer .button-form button{
+    font-family: "Roboto", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 52px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 0px 0px 0px 0px;
+    background-color: #462F8B;
+    color: #ffffff;
+    width: 100%;
+    border: none;
+}
+
+.form-customer .input-group-text{
+    color: #7A7A7A;
+}
